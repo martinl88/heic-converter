@@ -1,6 +1,6 @@
 services:
   heic-converter:
-    image: martinmysterion/heic-converter:latest
+    image: martinmysterion/heic-converter:node22
     ports:
       - "8080:80"
     restart: unless-stopped

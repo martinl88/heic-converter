@@ -37,7 +37,11 @@ A web-based application that converts HEIC images (commonly used by Apple device
 The easiest way to run HEIC Converter is using Docker:
 
 ```bash
+# Latest version
 docker run -d -p 8080:80 martinmysterion/heic-converter:latest
+
+# Node.js 22 version
+docker run -d -p 8080:80 martinmysterion/heic-converter:node22
 ```
 
 Then open your browser and navigate to http://localhost:8080
@@ -104,6 +108,7 @@ npm run preview
 - Styled with TailwindCSS
 - UI components built with Radix UI primitives
 - Containerized with Docker
+- Supports Node.js 22
 
 ## Privacy
 
